@@ -1,8 +1,9 @@
 {
   "name": "5irich-test",
-  "version": "0.1.13",
+  "version": "0.1.32",
   "description": "组件库演示",
   "main": "lib/components/index.js",
+  
   "scripts": {
     "dev": "vite",
     "build": "npm run build:js && npm run build:css",
@@ -12,17 +13,31 @@
   },
   "dependencies": {
     "5irich-test": "^0.1.11",
+    "@element-plus/icons-vue": "^2.1.0",
     "element-plus": "^2.3.3",
     "gulp": "^4.0.2",
     "gulp-minify-css": "^1.2.4",
     "gulp-sass": "^5.1.0",
+    "vite-plugin-components": "^0.13.3",
     "vue": "^3.2.47"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.1.0",
     "sass": "^1.62.0",
     "sass-loader": "^13.2.2",
+    "unplugin-element-plus": "^0.7.1",
+    "unplugin-vue-components": "^0.24.1",
     "vite": "^4.2.0",
     "vitepress": "^1.0.0-alpha.73"
-  }
+  },
+  "files": ["lib"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourname/yourproject.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "types": "type/index.d.ts",
+  "typings": "type/index.d.ts",
 }
