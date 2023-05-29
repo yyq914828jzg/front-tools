@@ -1,4 +1,4 @@
-//gulpfile.js
+//gulpfile.js ssss
 const gulp = require('gulp');
 const sass = require('gulp-sass')( require ( 'sass' ) )  //sass转成css
 const minifyCSS = require('gulp-minify-css') //压缩
